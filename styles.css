@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    background-color: rgb(42, 30, 40);
+    color:rgb(42, 30, 40);
+    font: normal 12px 'Press Start 2P', cursive;;
+}
+h1 {
+    color: rgb(128, 51, 69)
+}
+
+a {
+    color: rgb(128, 51, 69);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: wavy underline;
+}
+
+a:active {
+    color:rgb(96, 88, 101)
+}
+
+a:visited {
+    color: rgb(177, 167, 166)
+}
+
+.info {
+    display: flex;
+    color:rgb(96, 88, 101);
+    max-width: 750px ;
+    margin: auto;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
+.info-text {
+    margin-left: 40px;
+}
+
+
+.info p{
+    text-transform: lowercase;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+}
+
+.social {
+    background-color: rgb(96, 88, 101);
+    max-width: 750px ;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 15px 20px;
+    border-radius: 20px;
+}
+
+.social h2 {
+    margin-bottom: 15px;
+}
+
+.link-list {
+    list-style: none;
+    padding: 0%;
+}
+
+.link-list li {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+.list li{
+    margin-bottom: 10px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(2), .table td:nth-child(3) {
+    color: rgb(177, 167, 166);
+}
+
+.table td:nth-child(1) {
+    color: rgb(149, 141, 154);
+}
+
+
+.social .contact h2 {
+    text-align: center;
+}
+
+.social .contact label {
+    display: block;
+    font-size: 14px; 
+    margin-bottom: 10px;
+}
+
+.social .contact input, .social .contact textarea {
+    width: 100%;
+    box-sizing: none;
+    border: none;
+    background-color: rgb(149, 141, 154);
+    max-width: 720px ;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    color:rgb(42, 30, 40);
+    padding: 15px;
+    outline: none;
+    font-family: inherit;
+}
+
+.social .contact .btn {
+    cursor: pointer;
+    max-width: 250px ;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
